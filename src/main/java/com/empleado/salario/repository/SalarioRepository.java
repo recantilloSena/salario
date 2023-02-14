@@ -1,7 +1,10 @@
 package com.empleado.salario.repository;
 
+import org.springframework.stereotype.Service;
+
 import com.empleado.salario.modelo.Empleado;
 
+@Service
 public class SalarioRepository {
 	
 	public Empleado createEmpleado(String cedula, Integer tipo, Integer salario) {
