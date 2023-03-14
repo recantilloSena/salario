@@ -28,7 +28,7 @@ public class SalarioService {
 		
 	public List<Empleado> getEmpleados(){
 		List<Empleado> lista= new ArrayList<Empleado>();
-		
+				
 		lista.add(salarioRepository.createEmpleado("E1", 1, 200000));
 		lista.add(salarioRepository.createEmpleado("E2", 4, 500000));
 			
